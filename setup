@@ -6,3 +6,25 @@ md \data
 md \data\db
 
 mongod
+(initialize service)
+
+mongo
+(new shell)
+
+db.names.insert({"name": "Joshua Lickteig"})
+WriteResult({ "nInserted" : 1})
+
+db.names.find()
+{ "_id" : ObjectID("8889d.."), "name" : "Joshua Lickteig"}
+
+/* navigate to hw1<> folder.., in which \dump folder exists */
+mongorestore dump
+
+/* hw1 */
+show dbs
+use m101
+show collections
+
+db.hw1.findOne()
+
+
