@@ -27,4 +27,11 @@ show collections
 
 db.hw1.findOne()
 
+/* hw2 */
+api.mongodb.org
+python.org/downloads/release/python-279/ -- C:\Python27\; -- C:\Python27\Scripts; [pip]
+
+pip install https://github.com/mongodb/mongo-python-driver/archive/3.0b0.tar.gz
+
+
 
