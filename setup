@@ -20,20 +20,25 @@ db.names.find()
 /* navigate to hw1<> folder.., in which \dump folder exists */
 mongorestore dump
 
-/* hw1 */
+/* hw1-1 */
 show dbs
 use m101
 show collections
 
 db.hw1.findOne()
 
-/* hw2 */
+/* hw1-2 */
 api.mongodb.org
 python.org/downloads/release/python-279/ -- C:\Python27\; -- C:\Python27\Scripts; [pip]
 
 pip install https://github.com/mongodb/mongo-python-driver/archive/3.0b0.tar.gz
 
 python <path to .py>
+
+/* hw1-3 */
+pip install bottle
+
+python c:\downloads\mongo\hello_bottle.py
 
 
 
