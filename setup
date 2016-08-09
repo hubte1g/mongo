@@ -40,5 +40,9 @@ pip install bottle
 
 python c:\downloads\mongo\hello_bottle.py
 
+/* Query testing */
 
+use movies // creates movies
+db.movies.insertOne({ "title:" "Raiders of the Lost Ark", "year": 1981, "imdb": tt0082971})
+db.movies.find< () / ({}) >.pretty()  // not an array of documents but a cursor object
 
